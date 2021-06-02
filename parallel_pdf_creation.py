@@ -1,8 +1,7 @@
-
 from PyPDF2 import PdfFileWriter, PdfFileReader
 from PyPDF2.generic import BooleanObject, NameObject, IndirectObject, NumberObject, TextStringObject
 import os
-import pypdftk
+#import pypdftk
 
 import pdfrw
 from pdfrw import PdfWriter, PdfReader
