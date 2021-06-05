@@ -3,7 +3,7 @@
 
 
 
-A tool for Data Analysts/Business Analysts. With this, spawn multiple threads creating pdf records from multiple pandas dataframe.
+A tool for Data Analysts/Business Analysts. With this, it first creates a pdf template based on the columns of the dataframe. Then it fills this template pdf creating multiple pdfs representing each row of the dataframe. This can be done for multiple dataframes as well. The task is parallelized using multithreading.
 
 
 ## Installation
