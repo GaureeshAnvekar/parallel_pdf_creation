@@ -3,7 +3,7 @@
 
 
 
-With this tool, we can concurrently spawn multiple threads creating pdf records from a pandas dataframe.
+A tool for Data Analysts/Business Analysts. With this, spawn multiple threads creating pdf records from multiple pandas dataframe.
 
 
 ## Installation
@@ -13,6 +13,17 @@ With this tool, we can concurrently spawn multiple threads creating pdf records 
 pip install parallel_pdf_creation
 
 ```
+## Initial Setup
+1. Initial setup is required before the package runs successfully. (pdftk-server)
+1. For Windows, install pdftk-server from, 
+https://www.pdflabs.com/tools/pdftk-server/
+If “pdftk” is not detected in the terminal, you need to setup the environment variable PATH.
+This is a good link that describes the steps for Windows 7 onwards, to setup PATH variable.
+https://ourcodeworld.com/articles/read/240/how-to-edit-and-add-environment-variables-in-windows-for-easy-command-line-access 
+1. For macOS, get the latest version of “pdftk-server”, with this link, and install it,
+https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/pdftk_server-2.02-mac_osx-10.11-setup.pkg
+It may say permission not granted. Go to “System preference”, “security”, then unlock the access for the above installation.
+
 
 
 After installation, use it directly in the jupyter notebook as,
