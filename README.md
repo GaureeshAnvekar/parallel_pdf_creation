@@ -35,6 +35,8 @@ ppc.begin({"name_of_df1": df1, "name_of_df2": df2, .....}, num_of_threads (defau
 ```
 This will print "Complete!" after creating all pdf records in the current directory.
 
+The template created is as follows:
+![image](https://drive.google.com/uc?export=view&id=1BhNqfJRPpjQHPThdEaxN6S8d-A34LCLk)
 
 
 
